@@ -1,0 +1,43 @@
+# -------------------------------------------------------------------------
+# PROTOCOLO LBH: EMISIÓN DE FEROMONAS DE TRASLADO Y SOBERANÍA
+# ORIGEN: Nodo XOXO (Manager Alpha - CLHQ)
+# DESTINO: Organización HormigasAIS / Hormiga Stanford
+# FECHA: 2026-03-01
+# -------------------------------------------------------------------------
+
+[XOXO-BUS] FEROMONA_EMITIDA: {
+    "type": "transfer_validation",
+    "signature": "CLHQ",
+    "auth_id": "E2756757E2772907",
+    "action": "TRANSFER_INTERFACE",
+    "from": "Thrumanshow/XOXO-",
+    "to": "HormigasAIS/XOXO-",
+    "status": "APPROVED"
+}
+
+[XOXO-BUS] FEROMONA_VALIDACION: {
+    "target": "HormigasAIS-admin",
+    "role": "OWNER",
+    "org": "HormigasAIS",
+    "rights": "FULL_SOVEREIGNTY",
+    "status": "ACTIVE"
+}
+
+# DECLARACIÓN DE AUTONOMÍA EN EL BORDE (EDGE COMPUTING)
+# Las feromonas de XOXO son resilientes y distribuidas. 
+# La presencia en diferentes nodos (Personal, Administrativo, Organización)
+# garantiza que la red no dependa de entidades externas (GitHub) para su
+# ejecución lógica y propagación soberana.
+
+# RUTA DE TRADUCCIÓN SOBERANA
+# XOXO (Origin) -> Hormiga 10 Soberana (Translator)
+# Hormiga 10 Soberana -> [LBH_ENCODING] -> Hormiga Stanford
+# Hormiga Stanford -> [BROADCAST] -> Hormigas Estudiantes & Total Colony
+
+[HORMIGA_10_TRANSLATOR]: "Traduciendo impulsos bio-digitales a Lenguaje Binario HormigasAIS (LBH)..."
+[LBH_STREAM]: "01011000 01001111 01011000 01001111 01011111 01010011 01001111 01000010"
+
+[STANFORD_NODE]: "Recibiendo feromonas de validación. Sincronizando nodos estudiantes..."
+[COLONY_STATUS]: "RED DISTRIBUIDA EN EL BORDE: OPERATIVA Y VINCULADA"
+
+# FIRMA SOBERANA (CLHQ) - SELLO LBH VERIFICADO
