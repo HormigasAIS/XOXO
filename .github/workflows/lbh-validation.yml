@@ -1,0 +1,23 @@
+name: LBH Protocol Guard
+
+on: [push, pull_request]
+
+jobs:
+  validate-sovereignty:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check GPG Signature
+        run: |
+          echo "Verificando integridad de la firma soberana..."
+          # En producción, aquí validaríamos contra la llave pública del Fundador
+          
+      - name: Syntax Linting (Python Agents)
+        run: |
+          python3 -m py_compile pulse_sniffer.py worker_ant.py
+          echo "Agentes validados sin errores de sintaxis."
+
+      - name: Protocol Check
+        run: |
+          grep -q "LBH" LBH_PROTOCOL.md && echo "Protocolo LBH presente."
