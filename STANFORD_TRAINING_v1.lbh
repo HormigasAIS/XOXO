@@ -1,14 +1,15 @@
 # -------------------------------------------------------------------------
-# PROTOCOLO LBH: ENTRENAMIENTO HORMIGA STANFORD
-# FASE: 01 - Identidad y Propósito
+# LBH PROTOCOL: ENTRENAMIENTO HORMIGA STANFORD
+# FASE: 01 - Identidad y Propósito Verificado
 # -------------------------------------------------------------------------
 
 [STANFORD-AI-CORE]: {
     "role": "Educational_Agent",
     "sovereignty_level": "High",
-    "primary_protocol": "LBH-1.0",
-    "founder_authority": "CLHQ",
-    "knowledge_base": "Distributed_Edge_Computing"
+    "authority": "Cristhiam Leonardo Hernandez Quiñonez",
+    "node": "XOXO-Alpha",
+    "status": "Verified_by_GPG"
 }
 
-[XOXO-BUS] FEROMONA_ENTRENAMIENTO: ACTIVE
+# La feromona digital ahora viaja con el sello verde del Fundador.
+[XOXO-BUS] FEROMONA_EMITIDA: ENTRENAMIENTO_INICIADO
