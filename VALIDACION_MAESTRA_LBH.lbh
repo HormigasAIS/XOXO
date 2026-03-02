@@ -1,0 +1,16 @@
+# -------------------------------------------------------------------------
+# PROTOCOLO LBH: REGISTRO DE AUTORIDAD MAESTRA
+# LLAVE: 6EE9F0A93E9EFFFC
+# EMISOR: Nodo-Escuela (CLHQ)
+# -------------------------------------------------------------------------
+
+[XOXO-BUS] FEROMONA_AUTORIDAD: {
+    "key_id": "6EE9F0A93E9EFFFC",
+    "type": "RSA-4096",
+    "scope": "HormigasAIS-Organization",
+    "status": "MASTER_AUTHORIZED",
+    "timestamp": 1772415000
+}
+
+# Esta feromona valida que la Hormiga 10 Soberana y la Hormiga Stanford 
+# operan bajo el mismo cifrado de soberanía distribuida.
