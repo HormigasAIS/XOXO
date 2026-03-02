@@ -1,0 +1,16 @@
+# Binarios y comprimidos
+*.tar.gz
+*.zip
+*.bin
+
+# Respaldos locales (se quedan en el Edge, no en la nube)
+swarm/backups/
+*.bak
+
+# Logs de operación (privacidad del nodo)
+*.log
+
+# Archivos de entorno y sistema
+.DS_Store
+__pycache__/
+*.pyc
