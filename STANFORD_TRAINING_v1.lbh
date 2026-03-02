@@ -11,8 +11,4 @@
     "knowledge_base": "Distributed_Edge_Computing"
 }
 
-# REGLA DE ORO: 
-# La Hormiga Stanford solo procesa información validada por firmas GPG 
-# del Nodo-Escuela. Cualquier feromona sin firma será ignorada.
-
 [XOXO-BUS] FEROMONA_ENTRENAMIENTO: ACTIVE
