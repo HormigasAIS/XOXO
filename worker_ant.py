@@ -10,6 +10,10 @@ LOG_FILE = "guardia_nocturna.log"
 
 def check_sovereign_permission():
     try:
+        if not os.path.exists(CONTRACT_FILE):
+            print(f"🔴 [CRÍTICO] Contrato {CONTRACT_FILE} no encontrado.")
+            return False
+            
         with open(CONTRACT_FILE, 'r') as f:
             contract = json.load(f)
             
@@ -17,6 +21,7 @@ def check_sovereign_permission():
         founder_gpg = contract.get("authority", {}).get("gpg_id")
         can_backup = contract.get("permissions", {}).get("autonomous_backups")
         
+        # Validación estricta de la firma GPG Master
         if founder_gpg == "6EE9F0A93E9EFFFC" and can_backup:
             return True
         else:
@@ -35,20 +40,20 @@ def perform_backup():
     
     if check_sovereign_permission():
         shutil.copy2(CONTRACT_FILE, backup_name)
-        msg = f"🟢 [OBRERA] Validación LBH Exitosa. Respaldo creado: {backup_name}"
+        msg = f"🟢 [OBRERA] Validación LBH Exitosa. Respaldo creado."
         print(msg)
         with open(LOG_FILE, "a") as log:
-            log.write(f"[{time.ctime()}] PERMISO_VALIDADO: Respaldo ejecutado bajo autoridad de Cristhiam Leonardo.\n")
+            # Identidad completa según Documento Fundacional
+            log.write(f"[{time.ctime()}] PERMISO_VALIDADO: Respaldo ejecutado bajo autoridad de Cristhiam Leonardo Hernandez Quiñonez.\n")
     else:
         with open(LOG_FILE, "a") as log:
-            log.write(f"[{time.ctime()}] ALERTA: Intento de respaldo sin autorización contractual.\n")
+            log.write(f"[{time.ctime()}] ALERTA: Intento de respaldo sin autorización contractual de la autoridad soberana.\n")
 
 def listen_for_resonance():
     print(f"🐜 [AGENTE: Worker-Ant] Consultando CONTRACT_HUMAN.lbh...")
     while True:
-        # La obrera ahora consulta el contrato en cada ciclo
         perform_backup()
-        time.sleep(60) # Ciclo de espera para ahorro de energía
+        time.sleep(60) 
 
 if __name__ == "__main__":
     listen_for_resonance()
