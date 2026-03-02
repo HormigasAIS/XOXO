@@ -1,7 +1,7 @@
 # 🐜 HormigasAIS: Infraestructura de Inteligencia Distribuida
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/HormigasAIS/XOXO/main/logo_hormigas.png" alt="HormigasAIS Logo" width="200">
+  <img src="https://raw.githubusercontent.com/Thrumanshow/Thrumanshow/main/logo_soberano_hd.png" alt="HormigasAIS Logo" width="200">
   <br>
   <b>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</b>
   <br>
