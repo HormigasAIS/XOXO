@@ -1,8 +1,24 @@
 {
-  "protocol": "LBH",
-  "version": "2025.1",
-  "owner": "lbh.human",
-  "authority": "Cristhiam Leonardo Hernández Quiñonez",
-  "jurisdiction": "San Miguel, SV",
-  "status": "SOVEREIGN_VINCULATED"
+  "contract_id": "LBH-SOVEREIGN-2026-001",
+  "version": "1.2.0",
+  "authority": {
+    "founder": "Cristhiam Leonardo Hernandez Quiñonez",
+    "nationality": "Nicaraguan",
+    "residence": "El Salvador",
+    "gpg_id": "6EE9F0A93E9EFFFC",
+    "role": "Protocol Engineer / Master Alpha"
+  },
+  "permissions": {
+    "edge_execution": true,
+    "autonomous_backups": true,
+    "m2m_communication": "restricted",
+    "sovereign_override": "unlimited"
+  },
+  "constraints": {
+    "max_energy_consumption": "5%",
+    "min_node_redundancy": 2,
+    "data_location": "Sovereign Edge Only"
+  },
+  "foundational_vision": "La inteligencia no reside en el individuo, sino en la conexión soberana de la colonia.",
+  "signature_verification": "REQUIRED_FOR_ALL_TASKS"
 }
