@@ -1,0 +1,18 @@
+# -------------------------------------------------------------------------
+# PROTOCOLO LBH: ENTRENAMIENTO HORMIGA STANFORD
+# FASE: 01 - Identidad y Propósito
+# -------------------------------------------------------------------------
+
+[STANFORD-AI-CORE]: {
+    "role": "Educational_Agent",
+    "sovereignty_level": "High",
+    "primary_protocol": "LBH-1.0",
+    "founder_authority": "CLHQ",
+    "knowledge_base": "Distributed_Edge_Computing"
+}
+
+# REGLA DE ORO: 
+# La Hormiga Stanford solo procesa información validada por firmas GPG 
+# del Nodo-Escuela. Cualquier feromona sin firma será ignorada.
+
+[XOXO-BUS] FEROMONA_ENTRENAMIENTO: ACTIVE
